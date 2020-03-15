@@ -1,0 +1,86 @@
+/* General */
+
+body {
+	font-size: 1.25rem;
+}
+
+:last-child {
+	margin-bottom: 0 !important;
+}
+
+code {
+	font-size: inherit;
+}
+
+b {
+	font-weight: 500;
+}
+
+/* Main */
+
+main > :nth-child(2n) {
+	background-color: #e9ecef;
+}
+
+section {
+	display: grid;
+	min-height: 100vh;
+}
+
+section > div {
+	display: flex;
+	padding: 2rem 1rem;
+	width: 100%;
+	align-items: center;
+}
+
+/* Footer */
+
+footer {
+	padding: 0 1rem;
+}
+
+/* Social links */
+
+.btn-social > a {
+	color: inherit !important;
+}
+
+.btn-social {
+	border-radius: 0;
+	border-width: 0;
+	font-size: 1.66em;
+}
+
+.btn-social {
+	margin: 0 auto;
+	color: inherit;
+	background-color: transparent;
+}
+
+.btn-social:focus {
+	box-shadow: none;
+}
+
+.btn-social:hover:not(:active) {
+	background-color: currentColor;
+}
+
+.btn-social:hover:not(:active) i {
+	color: var(--white);
+}
+
+/* Skills lists */
+
+.media {
+	margin-bottom: 0.5rem;
+}
+
+.media .icon {
+	width: 3rem;
+	height: 3rem;
+	font-size: 2em;
+	line-height: 3rem;
+	margin-right: 1rem;
+	text-align: center;
+}
