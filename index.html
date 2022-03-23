@@ -1,187 +1,141 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
+  <head>
+    <title>François Rozet</title>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
 
-<head>
-	<!-- Title -->
-	<title>François Rozet</title>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="François Rozet">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-	<link rel="stylesheet" href="resources/css/default.css">
-</head>
+  <body>
+    <header class="text-center text-white">
+      <div class="container p-5">
+        <div>
+          <img class="shadow" src="files/avatar.jpg">
+        </div>
+        <div class="text-md-start">
+          <h1>François Rozet</h1>
+          <p>PhD student in Machine Learning at ULiège</p>
+          <div class="socials fs-3">
+            <a href="mailto:francois.rozet@uliege.be" title="Mail"><i class="fa fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=C-WS1pwAAAAJ" title="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+            <a href="https://github.com/francois-rozet" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/francois-rozet" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<body>
-	<!-- Navbar -->
-	<nav class="navbar fixed-top navbar-dark bg-dark">
-		<div class="container">
-			<span class="navbar-brand">François Rozet</span>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div id="navCollapse" class="collapse navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#education">Education</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#teaching">Teaching</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#honors">Honors & Awards</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <main class="container p-4">
+      <h3>About me</h3>
+      <section id="about">
+        <p>My name is François. I am a PhD student in machine learning under the supervision of <a href="https://glouppe.github.io">Gilles Louppe</a> at the <a href="https://www.uliege.be/">University of Liège</a> in Belgium. My work mainly consists in developing and applying deep learning techniques to Bayesian inference problems in natural sciences.</p>
+      </section>
 
-	<!-- Main -->
-	<main>
-		<section id="home">
-			<div>
-				<div class="container">
-					<h1>Hi,</h1>
-					<p>Welcome to my GitHub Page &#128075;</p>
+      <h3>Education</h3>
+      <section id="education" class="mt-2">
+        <ul class="timeline">
+          <li>
+            <p class="fw-semibold lh-1 mb-0">PhD in Machine Learning</p>
+            <p class="text-muted">University of Liège (since 2021)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Master of Science in Data Science and Engineering</p>
+            <p class="text-muted">University of Liège (2019 - 2021)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Bachelor of Science in Physics and Computer Engineering</p>
+            <p class="text-muted">University of Liège (2016 - 2019)</p>
+          </li>
+        </ul>
+      </section>
 
-					<p>My name is <b>François Rozet</b>. I'm a PhD student in machine/deep learning under the supervision of <a href="https://glouppe.github.io/">Gilles Louppe</a> at the <a href="https://www.uliege.be">University of Liège</a> in Belgium. My work mainly consists in applying deep learning techniques to theoretical research in natural sciences, especially Bayesian inference problems.</p>
+      <h3>Publications</h3>
+      <section id="publications" class="mt-2">
+        <ul class="timeline">
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Averting a Crisis in Simulation-based Inference</p>
+            <p class="text-muted mb-0">J. Hermans, A. Delaunoy, F. Rozet, A. Wehenkel, G. Louppe (2021)</p>
+            <p><a href="https://arxiv.org/abs/2110.06581">arXiv:2110.06581</a></p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Arbitrary Marginal Neural Ratio Estimation for Simulation-based Inference</p>
+            <p class="text-muted mb-0">F. Rozet, G. Louppe (2021)</p>
+            <p><a href="https://arxiv.org/abs/2110.00449">arXiv:2110.00449</a></p>
+          </li>
+        </ul>
+      </section>
 
-					<p>
-						<button class="btn btn-social">
-							<a href="mailto:francois.rozet@outlook.com" target="_blank">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</a>
-						</button>
-						<button class="btn btn-social">
-							<a href="https://www.github.com/francois-rozet/" target="_blank">
-								<i class="fab fa-github" aria-hidden="true"></i>
-							</a>
-						</button>
-						<button class="btn btn-social">
-							<a href="https://scholar.google.com/citations?user=C-WS1pwAAAAJ" target="_blank">
-								<i class="fas fa-graduation-cap" aria-hidden="true"></i>
-							</a>
-						</button>
-						<button class="btn btn-social">
-							<a href="https://www.linkedin.com/in/francois-rozet/" target="_blank">
-								<i class="fab fa-linkedin" aria-hidden="true"></i>
-							</a>
-						</button>
-						<button class="btn btn-social">
-							<a href="https://stackoverflow.com/users/12172457/francois/" target="_blank">
-								<i class="fab fa-stack-overflow"></i>
-							</a>
-						</button>
-					</p>
-				</div>
-			</div>
-		</section>
+      <h3>Honors & Awards</h3>
+      <section id="honors" class="mt-2">
+        <ul class="timeline">
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Best Master's thesis award</p>
+            <p class="text-muted">AIM (2021)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Best Master's thesis award</p>
+            <p class="text-muted">AILg and NRB (2021)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">Pisart scolarship</p>
+            <p class="text-muted">University of Liège (2016)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">National Physics olympiad 3<sup>rd</sup> laureate</p>
+            <p class="text-muted">ABPPC (2016)</p>
+          </li>
+          <li>
+            <p class="fw-semibold lh-1 mb-0">National Chemistry olympiad 7<sup>th</sup> laureate</p>
+            <p class="text-muted">ACLg (2015)</p>
+          </li>
+        </ul>
+      </section>
 
-		<section id="projects">
-			<div>
-				<div class="container">
-					<h1>Projects</h1>
+      <h3>Teaching</h3>
+      <section id="teaching" class="mt-2">
+        <h5>Teaching Assistant</h5>
+        <dl>
+          <dt>INFO8010</dt>
+          <dd>Deep learning, Prof. Gilles Louppe.</dd>
+          <dt>INFO8006</dt>
+          <dd>Introduction to artificial intelligence, Prof. Gilles Louppe.</dd>
+          <dt>INFO0902</dt>
+          <dd>Data structures and algorithms, Prof. Pierre Geurts.</dd>
+          <dt>INFO0054</dt>
+          <dd>Functional programming, Prof. Christophe Debruyne.</dd>
+        </dl>
+        <h5>Student Instructor</h5>
+        <dl>
+          <dt>ELEN0062</dt>
+          <dd>Introduction to machine learning, Prof. Pierre Geurts and Louis Wehenkel (2020 - 2021).</dd>
+          <dt>INFO8006</dt>
+          <dd>Introduction to artificial intelligence, Prof. Gilles Louppe (2020 - 2021).</dd>
+          <dt>INFO0952</dt>
+          <dd>Additional information technology, Prof. Pierre Geurts (2020 - 2021).</dd>
+          <dt>MATH0487</dt>
+          <dd>Elements of statistics, Prof. Louis Wehenkel (2019 - 2020).</dd>
+          <dt>MATH0504</dt>
+          <dd>Applied mathematics, Prof. Christophe Geuzaine (2019 - 2020).</dd>
+          <dt>PROJ0001</dt>
+          <dd>Introduction to numerical methods, Prof. Quentin Louveaux (2018 - 2019).</dd>
+          <dt>PHYS2021</dt>
+          <dd>Electricity and electromagnetism, Prof. Hervé Caps (2017 - 2019).</dd>
+          <dt>PHYS2020</dt>
+          <dd>Newtonian mechanics, Prof. Hervé Caps (2017 - 2019).</dd>
+        </dl>
+      </section>
+    </main>
 
-					<br>
+    <footer class="text-center text-white py-2">
+        &copy; François Rozet, <script>document.write(new Date().getFullYear())</script>. All rights reserved.
+    </footer>
 
-					<h4>PIQA <a href="https://github.com/francois-rozet/piqa"><i class="fas fa-code-branch"></i></a></h4>
-					<p>Short for <i>PyTorch Image Quality Assessment</i>, PIQA is a Python package which implements a collection of measures and metrics for image quality assessment in various image processing tasks such as denoising, super-resolution, image interpolation, etc. It relies only on <a href="https://pytorch.org/">PyTorch</a> and takes advantage of its efficiency and automatic differentiation.</p>
-
-					<h4>ADOPPTRS <a href="https://github.com/francois-rozet/adopptrs"><i class="fas fa-code-branch"></i></a></h4>
-					<p>Acronym for <i>Automatic Detection Of Photovoltaic Panels Through Remote Sensing</i>, ADOPPTRS is a deep learning project whose goal is to detect photovoltaic panels in high-resolution satellite/aerial images.</p>
-
-					<h4>VSOP Compiler <a href="https://github.com/francois-rozet/vsop-compiler"><i class="fas fa-code-branch"></i></a></h4>
-					<p>Implementation of a full source-code to machine-code compiler for the <i>Very Simple Object-oriented Programming</i> language inspired from <a href="https://dl.acm.org/doi/abs/10.1145/381841.381847">COOL</a>, the <i>Classroom Object-Oriented Language</i>.</p>
-
-					<h4>Znkvzr.com <a href="https://www.znkvzr.com/"><i class="fas fa-link"></i></a></h4>
-					<p>Amateur entertainment website. It contains a few fun applications developed in our spare times.</p>
-
-					<h4>Baredesign.be <a href="https://www.baredesign.be/"><i class="fas fa-link"></i></a></h4>
-					<p>Architecture modeling showcase website.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="education">
-			<div>
-				<div class="container">
-					<h1>Education</h1>
-					<br>
-					<p><b>PhD student</b> in Machine Learning.<br>University of Liège, since <code>2021</code>.</p>
-					<p><b>Master of Science</b> in Data Science and Engineering.<br>University of Liège, from <code>2019</code> to <code>2021</code>.</p>
-					<p><b>Bachelor of Science</b> in Physics and Computer Engineering.<br>University of Liège, from <code>2016</code> to <code>2019</code>.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="teaching">
-			<div>
-				<div class="container">
-					<h1>Teaching</h1>
-					<br>
-					<h4>Teaching Assistant</h4>
-					<ul>
-						<li>Introduction to artificial intelligence (<code>INFO8006-1</code>) given by Pr. Gilles Louppe since <code>2021</code>.</li>
-
-						<li>Functional programming (<code>INFO0054-1</code>) given by Pr. Christophe Debruyne since <code>2021</code>.</li>
-					</ul>
-					<br>
-					<h4>Student Instructor</h4>
-					<ul>
-						<li>Introduction to machine learning (<code>ELEN062-1</code>) given by Pr. Pierre Geurts and Pr. Louis Wehenkel from <code>2020</code> to <code>2021</code>.</li>
-
-						<li>Introduction to artificial intelligence (<code>INFO8006-1</code>) given by Pr. Gilles Louppe from <code>2020</code> to <code>2021</code>.</li>
-
-						<li>Additional information technology (<code>INFO0952-1</code>) given by Pr. Pierre Geurts from <code>2020</code> to <code>2021</code>.</li>
-
-						<li>Elements of statistics (<code>MATH0487-2</code>) given by Pr. Louis Wehenkel from <code>2019</code> to <code>2020</code>.</li>
-
-						<li>Applied mathematics (<code>MATH0504-1</code>) given by Pr. Christophe Geuzaine and Pr. Benjamin Dewals from <code>2019</code> to <code>2020</code>.</li>
-
-						<li>Introduction to numerical methods (<code>PROJ0001-1</code>) given by Pr. Quentin Louveaux from <code>2018</code> to <code>2019</code>.</li>
-
-						<li>Electricity and electromagnetism (<code>PHYS2021-1</code>) given by Pr. Hervé Caps from <code>2017</code> to <code>2019</code>.</li>
-
-						<li>Mechanics (<code>PHYS2020-1</code>) given by Pr. Hervé Caps from <code>2017</code> to <code>2019</code>.</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-		<section id="honors">
-			<div>
-				<div class="container">
-					<h1>Honors & Awards</h1>
-					<br>
-					<h4>Pisart Scolarship</h4>
-					<p>Sep <code>2016</code> &middot; University of Liège <br> Awarded to deserving high school students that wish to realize an engineer bachelor degree.</p>
-					<h4>Third laureate of National Physics Olympiad</h4>
-					<p>May <code>2016</code> &middot; ABPPC - Belgian Association of Physics and Chemistry Teachers <br> Awarded to the best national high school students for their ability in Physics.</p>
-					<h4>Laureate of National Chemistry Olympiad</h4>
-					<p>May <code>2015</code> &middot; ACLg - Association of Chemists graduated from the University of Liège <br> Awarded to the best national high school students for their ability in Chemistry.</p>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<!-- Footer -->
-	<footer id="footer" class="bg-dark text-white p-3">
-		<p align="center">&copy; François Rozet, <script>document.write(new Date().getFullYear())</script>. All rights reserved.</p>
-	</footer>
-
-	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
